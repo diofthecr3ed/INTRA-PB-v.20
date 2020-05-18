@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PB v2.0 Intra</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PB v2.0 Intra </title>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+</head>
+<body>
+
+  <div class="header">
+
+
+    <div class="inner-header flex">
+    
+    <svg version="1.1" class="logo" baseProfile="tiny" id="Layer_1" xmlns="http://projectbeta.tech/img/logo-white.svg"
+    xmlns:xlink="http://projectbeta.tech/img/logo-white.svg" x="0px" y="0px" viewBox="0 0 500 500" xml:space="preserve">
+    <path fill="#FFFFFF" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M57,283" />
+    <g><img class="black ng-scope" src="http://projectbeta.tech/img/logo-white.svg" id="logo"></g>
+    </svg>
+    <h1 class="titleoo">INTRA PB V.20</h1>
+    <br>
+    
+    </div>
+    <h3 id="subtitle">PROPOSAL</h3>
+    
+    <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+    </g>
+    </svg>
+    </div>
+    
+    
+    </div>
+    
+
+<!-- particles.js container -->
+
+
+ 
+
+</div>
+<div id="intro">
+  <h4 id="ev">BETATEST</h4>
+  
+    <div style="margin-bottom: 30px; background: linear-gradient(60deg,#223750 0%, #223750 100%);">
+        <h4 style="color: white; font-weight: 100; text-align: center;">Synopsis</h4>
+        <center><p class="synopsis">A clash of creativity in which participant teams compete to
+            create the best piece by completing an unfinished specimen
+            of a classic genre – the famous Role-Playing Games (RPGs)
+            of the Golden Era of computer gaming; adding mechanics
+            relying on their skill at the Python programming language
+            and their understanding of the timeless genre.</p></center>
+            <hr style="margin: 20px 90px 20px 90px; background-color: aliceblue;">
+        <div id="av" class="infodivs">
+            <h2 class="pr">Proposal</h2>
+            <hr style="margin-left: 20px;margin-bottom: 20px; background-color: aliceblue;">
+            <ul >
+                <li>The Internet is a huge assortment of answers. The test is finding them. Finishing a cryptic hunt will build up your web lookup and problem-solving skill. You will face grueling questions that will test your problem-solving abilities. BetaTest involves many stages and the only goal apart from learning is to find the correct answer and proceed to the next level. You need you to be able to think on your feet and connect the dots and make meaning out of seemingly random clues.
+                </li>
+                <li>The event will be conducted online. Although this is an individual event, you are allowed to team up with other people</li>
+                <li>You will have to make an account with your Sanskriti email id on the BetaTest website and log in.</li>
+                <li>The participants will be taken to the portal once they log in. The event will span over 48 hours.
+                </li>
+                <li>The player will progress through multiple levels which will get harder as the player progresses through them.
+                </li>
+                <li>The player will be provided with an assortment of questions from diverse topics.
+                </li>
+                <li>
+                    The questions may drive you crazy and make you pull your hair out, but the joy you will feel when you finally move to the next level is unparalleled. 
+                    </li>
+                <li>These questions will push your brain and problem-solving capabilities to the limit.  Make this better You will come out of the scavenger hunt with a skill set to solve diverse problems and much improved problem-solving capabilities.
+
+                </li>
+            </ul>
+            <br>
+            
+        </div>
+        
+        
+<footer><center><a href="index.html" class="back" >Back to Home</a></center></footer>                    
+                </div>
+    </div>
+
+<!-- scripts -->
+<script src="../particles.js"></script>
+<script src="js/app.js"></script>
+
+<!-- stats.js -->
+<script src="js/lib/stats.js"></script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
+
+</body>
+</html>
